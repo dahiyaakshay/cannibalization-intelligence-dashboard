@@ -129,12 +129,13 @@ This project demonstrates:
 - Interactive analytics dashboards
 - Full-stack integration (FastAPI + React)
 
-##🧪 Status
+## 🧪 Status
 Proof-of-Concept — Fully functional locally.
 
 Designed for experimentation, modeling, and portfolio demonstration.
 
 ## 📎 License
+
 For demonstration and educational purposes.
 ---
 
