@@ -1,5 +1,11 @@
 # 🚨 Cannibalization Intelligence Dashboard
 
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=flat&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/ML-ScikitLearn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Proof--of--Concept-blue)
+
 AI-driven structural cannibalization detection and risk modeling dashboard — a full-stack Proof-of-Concept system for analyzing page similarity, conflict severity, and intent clustering with actionable insights.
 
 ---
