@@ -1,65 +1,77 @@
 # 🚨 Cannibalization Intelligence Dashboard
 
-AI-driven structural cannibalization detection and risk modeling system — a full-stack Proof-of-Concept that analyzes page similarity, conflict risk, and intent clusters to help identify SEO cannibalization.
+AI-driven structural cannibalization detection and risk modeling dashboard — a full-stack Proof-of-Concept system for analyzing page similarity, conflict severity, and intent clustering with actionable insights.
 
 ---
 
-## 🧠 What It Is
+## 🧠 Overview
 
-This project analyzes website page data (e.g., exported Google Search Console CSV) to identify structural similarity, content redundancy, and cannibalization risk using NLP and machine learning techniques. It visualizes findings in an interactive dashboard.
+This dashboard analyzes page-level similarity and structural overlap to identify:
 
-Unlike keyword-based tools, this system focuses on **semantic similarity and structural relationship** between pages.
+- Content cannibalization risks  
+- Structural duplication patterns  
+- Intent clustering conflicts  
+- High-risk page pairs  
+- Actionable optimization recommendations
+
+This project is built as a Proof-of-Concept and demonstrates practical application of NLP and semantic similarity modeling for SEO structural analysis.
 
 ---
 
-## 🏗 Architecture Overview
+## 🏗 Architecture
 
 ### Backend
-- **FastAPI** for the API
-- **Pandas** for data manipulation
-- **Scikit-learn** for TF-IDF and similarity
+
+- **FastAPI** – API backend  
+- **Pandas** – Data processing  
+- **Scikit-learn (TF-IDF & Cosine Similarity)** – Semantic modeling  
 - Custom risk scoring and clustering logic
 
 ### Frontend
-- **React (Vite)** for UI
-- **TailwindCSS** for styling
-- **Axios** for API integration
+
+- **React (Vite)** – Frontend framework  
+- **TailwindCSS** – Utility-first styling  
+- **Axios** – API communication
 
 ---
 
 ## 🚀 Features
 
-### 🚨 Risk Intelligence
+### Risk Intelligence
+
 - Global Risk Index
 - Severity classification
 - Risk distribution visualization
-- Risk filtering
+- Interactive risk filtering
 
-### 🔍 Structural Analysis
-- Pairwise semantic similarity heatmap
+### Structural Analysis
+
+- Pairwise similarity heatmap
 - Conflict matrix with severity coloring
-- Interactive risk slider
+- Risk gradient bars
 
-### 📌 Clustering
-- Intent cluster grouping
+### Clustering Insights
+
+- Intent clusters
 - Cluster density score
-- Structural uniqueness identification
+- Structural uniqueness scores
 
-### 📝 Recommendations
-- Actionable, real-data based recommendations
-- High-risk pair consolidation suggestions
+### Recommendations
+
+- Real data-based action suggestions
+- High-risk pair consolidation prompts
 
 ---
 
 ## 🧩 How It Works
 
-1. Upload a Google Search Console export (CSV)
-2. Backend preprocesses and vectorizes text
-3. Pairwise cosine similarity is computed
-4. Conflict risk scores are derived
-5. Pages are clustered by similarity
-6. Cluster density is computed
-7. Frontend visualizes results interactively
+1. Upload an exported Google Search Console CSV  
+2. Backend preprocesses page/query data  
+3. Pages are vectorized using TF-IDF  
+4. Cosine similarity matrix is calculated  
+5. Page pairs are scored via risk model  
+6. Pages are clustered based on similarity  
+7. Frontend visualizes results with charts and tables
 
 ---
 
@@ -71,7 +83,7 @@ pip install -r requirements.txt
 uvicorn app:app --reload
 ```
 
-Backend runs at:
+The backend will be available at:
 ```
 http://127.0.0.1:8000
 ```
@@ -86,7 +98,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs at:
+The frontend dashboard will be available at:
 ```
 http://localhost:5173
 ```
@@ -108,26 +120,26 @@ http://localhost:5173
 
 ## 🧠 Why This Matters
 
-This project demonstrates how applied natural language processing and vector similarity techniques can surface structural cannibalization — helping SEO professionals identify conflicts beyond simple keyword overlap.
-
-It goes beyond traditional SEO tools by modeling relationships between pages based on intent similarity and structural overlap.
+This system demonstrates how structural similarity modeling and vector-based semantic analysis can reveal cannibalization patterns that traditional keyword tools miss, providing deeper insights into content redundancy and optimization clusters.
 
 ---
 
 ## 🔭 Future Improvements
 
 - Google Search Console API integration
-- Historical trend tracking
-- Merge simulation impact modeling
-- Internal linking optimization suggestions
-- Export reporting (PDF, CSV)
-- Dashboard personalization and export controls
+- Historical tracking and trend visualization
+- Merge impact simulation modeling
+- Internal linking optimization engine
+- Entity overlap scoring
+- PDF export reporting
+- Timeline risk visualization
 
 ---
 
 ## 🧪 Status
 
-Proof-of-Concept — Fully functional locally and designed for experimentation, modeling, and portfolio demonstration.
+Proof-of-Concept — Fully functional locally.
+Designed for experimentation, modeling, and portfolio demonstration..
 
 ---
 
